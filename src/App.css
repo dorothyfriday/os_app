@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+line {
+  stroke: #05A4E1;
+}
+
+circle {
+  fill: #874abf;
+  stroke: #874abf;
+}
+
+line.axisy {
+  stroke: #c1cd23;
+}
+
+line.axisx {
+  stroke: #c1cd23;
+}
+
+
+circle:hover {
+  fill: #874abf;
+  stroke-width: 20px;
+  stroke: #874abf;
+}
+
+div.tooltip {
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  width: 130px;
+  height: 32px;
+  padding: 2px;
+  font: 12px sans-serif;
+  font-weight: bold ;
+  background: #e2c4e8;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
